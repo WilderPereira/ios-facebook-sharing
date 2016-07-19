@@ -12,6 +12,8 @@
 		D8F1574D1D3DA48F00944872 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8F1574B1D3DA48F00944872 /* Main.storyboard */; };
 		D8F1574F1D3DA48F00944872 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8F1574E1D3DA48F00944872 /* Assets.xcassets */; };
 		D8F157521D3DA48F00944872 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8F157501D3DA48F00944872 /* LaunchScreen.storyboard */; };
+		D8F1575D1D3DA9B800944872 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F1575B1D3DA9B800944872 /* FBSDKCoreKit.framework */; };
+		D8F1575E1D3DA9B800944872 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F1575C1D3DA9B800944872 /* FBSDKShareKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,9 @@
 		D8F1574E1D3DA48F00944872 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8F157511D3DA48F00944872 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8F157531D3DA48F00944872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8F1575B1D3DA9B800944872 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../../APIs/FacebookSDKs-iOS-4/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		D8F1575C1D3DA9B800944872 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "../../../APIs/FacebookSDKs-iOS-4/FBSDKShareKit.framework"; sourceTree = "<group>"; };
+		D8F1575F1D3DABAF00944872 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +34,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8F1575E1D3DA9B800944872 /* FBSDKShareKit.framework in Frameworks */,
+				D8F1575D1D3DA9B800944872 /* FBSDKCoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,9 +61,12 @@
 		D8F157461D3DA48F00944872 /* ios-facebook-sharing */ = {
 			isa = PBXGroup;
 			children = (
+				D8F1575B1D3DA9B800944872 /* FBSDKCoreKit.framework */,
+				D8F1575C1D3DA9B800944872 /* FBSDKShareKit.framework */,
 				D8F157471D3DA48F00944872 /* AppDelegate.swift */,
 				D8F157491D3DA48F00944872 /* ViewController.swift */,
 				D8F1574B1D3DA48F00944872 /* Main.storyboard */,
+				D8F1575F1D3DABAF00944872 /* Header.h */,
 				D8F1574E1D3DA48F00944872 /* Assets.xcassets */,
 				D8F157501D3DA48F00944872 /* LaunchScreen.storyboard */,
 				D8F157531D3DA48F00944872 /* Info.plist */,
@@ -253,6 +263,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "wilderpereira.ios-facebook-sharing";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = ios_facebook_sharing/Header.h;
 			};
 			name = Debug;
 		};
@@ -264,6 +275,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "wilderpereira.ios-facebook-sharing";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = ios_facebook_sharing/Header.h;
 			};
 			name = Release;
 		};

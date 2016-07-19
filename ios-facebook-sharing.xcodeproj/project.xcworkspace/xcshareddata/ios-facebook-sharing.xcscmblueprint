@@ -1,0 +1,71 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "7C377DCA9B6F713583E83866AEFE2DD24D774585" : 0,
+    "E74A3F5C58CC475B9FA52545C425403480FA4F98" : 0,
+    "2E4A0AE6E669457E2DA7DDEE4356A133766BF311" : 0,
+    "58B3AAE2B2259D3E2AB3C773FE93E53F67A0586C" : 0,
+    "1B435718A086686F3EA08D1E471BCD5B245EC868" : 0,
+    "4ED608F63D0BFAA3E29E771A651DCEB7EB4BD41F" : 0,
+    "81ECB5A857AA521E50817DA1C5B8266CA61711C3" : 0,
+    "51CF120050193C42690F3EEEE0B981C2379174F1" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7144881D-A254-499B-9298-1347F08B98ED",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "7C377DCA9B6F713583E83866AEFE2DD24D774585" : "PitchPerfect\/",
+    "E74A3F5C58CC475B9FA52545C425403480FA4F98" : "..\/Android\/GameOfSkate-Android",
+    "2E4A0AE6E669457E2DA7DDEE4356A133766BF311" : "..\/Gradle\/ud867",
+    "58B3AAE2B2259D3E2AB3C773FE93E53F67A0586C" : "..\/WilderPereira.github.io",
+    "1B435718A086686F3EA08D1E471BCD5B245EC868" : "..\/Android\/AndroidUtils",
+    "4ED608F63D0BFAA3E29E771A651DCEB7EB4BD41F" : "..\/Android\/Sunshine-Version-2",
+    "81ECB5A857AA521E50817DA1C5B8266CA61711C3" : "..\/Android\/Reciclo",
+    "51CF120050193C42690F3EEEE0B981C2379174F1" : "GameOfS.K.A.T.E\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ios-facebook-sharing",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ios-facebook-sharing.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/WilderPereira\/AndroidUtils.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1B435718A086686F3EA08D1E471BCD5B245EC868"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/udacity\/ud867",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2E4A0AE6E669457E2DA7DDEE4356A133766BF311"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/udacity\/Sunshine-Version-2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4ED608F63D0BFAA3E29E771A651DCEB7EB4BD41F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/WilderPereira\/GameOfS.K.A.T.E-IOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "51CF120050193C42690F3EEEE0B981C2379174F1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/WilderPereira\/WilderPereira.github.io.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "58B3AAE2B2259D3E2AB3C773FE93E53F67A0586C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/WilderPereira\/PitchPerfect",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7C377DCA9B6F713583E83866AEFE2DD24D774585"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/WilderPereira\/Reciclo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "81ECB5A857AA521E50817DA1C5B8266CA61711C3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/WilderPereira\/GameOfSkate-Android.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E74A3F5C58CC475B9FA52545C425403480FA4F98"
+    }
+  ]
+}
