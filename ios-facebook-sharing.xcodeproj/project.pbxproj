@@ -14,9 +14,14 @@
 		D8F157521D3DA48F00944872 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8F157501D3DA48F00944872 /* LaunchScreen.storyboard */; };
 		D8F1575D1D3DA9B800944872 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F1575B1D3DA9B800944872 /* FBSDKCoreKit.framework */; };
 		D8F1575E1D3DA9B800944872 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F1575C1D3DA9B800944872 /* FBSDKShareKit.framework */; };
+		EC8CCA073C6CDEA93B7CEAA2 /* Pods_ios_facebook_sharing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A860CBE1AB7459DA0B0E8763 /* Pods_ios_facebook_sharing.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1263115124B9C757BA63812B /* Pods-ios-facebook-sharing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-facebook-sharing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-facebook-sharing/Pods-ios-facebook-sharing.debug.xcconfig"; sourceTree = "<group>"; };
+		3933872EA8D2346CDE4E8888 /* Pods-ios-facebook-sharing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-facebook-sharing.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-facebook-sharing/Pods-ios-facebook-sharing.release.xcconfig"; sourceTree = "<group>"; };
+		A860CBE1AB7459DA0B0E8763 /* Pods_ios_facebook_sharing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_facebook_sharing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8AECC471D3DCD1F00C0F308 /* Pods */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Pods; sourceTree = "<group>"; };
 		D8F157441D3DA48F00944872 /* ios-facebook-sharing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-facebook-sharing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8F157471D3DA48F00944872 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8F157491D3DA48F00944872 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,7 +31,6 @@
 		D8F157531D3DA48F00944872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8F1575B1D3DA9B800944872 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../../APIs/FacebookSDKs-iOS-4/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
 		D8F1575C1D3DA9B800944872 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "../../../APIs/FacebookSDKs-iOS-4/FBSDKShareKit.framework"; sourceTree = "<group>"; };
-		D8F1575F1D3DABAF00944872 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +40,29 @@
 			files = (
 				D8F1575E1D3DA9B800944872 /* FBSDKShareKit.framework in Frameworks */,
 				D8F1575D1D3DA9B800944872 /* FBSDKCoreKit.framework in Frameworks */,
+				EC8CCA073C6CDEA93B7CEAA2 /* Pods_ios_facebook_sharing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BFE17FE5F4B10E1C10F516FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1263115124B9C757BA63812B /* Pods-ios-facebook-sharing.debug.xcconfig */,
+				3933872EA8D2346CDE4E8888 /* Pods-ios-facebook-sharing.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D8F1573B1D3DA48E00944872 = {
 			isa = PBXGroup;
 			children = (
 				D8F157461D3DA48F00944872 /* ios-facebook-sharing */,
 				D8F157451D3DA48F00944872 /* Products */,
+				BFE17FE5F4B10E1C10F516FB /* Pods */,
+				F12537C74DF2754D55C831AB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,12 +82,20 @@
 				D8F157471D3DA48F00944872 /* AppDelegate.swift */,
 				D8F157491D3DA48F00944872 /* ViewController.swift */,
 				D8F1574B1D3DA48F00944872 /* Main.storyboard */,
-				D8F1575F1D3DABAF00944872 /* Header.h */,
 				D8F1574E1D3DA48F00944872 /* Assets.xcassets */,
 				D8F157501D3DA48F00944872 /* LaunchScreen.storyboard */,
 				D8F157531D3DA48F00944872 /* Info.plist */,
 			);
 			path = "ios-facebook-sharing";
+			sourceTree = "<group>";
+		};
+		F12537C74DF2754D55C831AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8AECC471D3DCD1F00C0F308 /* Pods */,
+				A860CBE1AB7459DA0B0E8763 /* Pods_ios_facebook_sharing.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -81,9 +105,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D8F157561D3DA48F00944872 /* Build configuration list for PBXNativeTarget "ios-facebook-sharing" */;
 			buildPhases = (
+				BF2D13CDCEEF6FB10D9459AE /* [CP] Check Pods Manifest.lock */,
 				D8F157401D3DA48F00944872 /* Sources */,
 				D8F157411D3DA48F00944872 /* Frameworks */,
 				D8F157421D3DA48F00944872 /* Resources */,
+				C08B6FDCE6DBAF0D5AAEB935 /* [CP] Embed Pods Frameworks */,
+				C913A8A362D54E1B48F91E62 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -139,6 +166,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BF2D13CDCEEF6FB10D9459AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C08B6FDCE6DBAF0D5AAEB935 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-facebook-sharing/Pods-ios-facebook-sharing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C913A8A362D54E1B48F91E62 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-facebook-sharing/Pods-ios-facebook-sharing-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D8F157401D3DA48F00944872 /* Sources */ = {
@@ -257,25 +332,27 @@
 		};
 		D8F157571D3DA48F00944872 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1263115124B9C757BA63812B /* Pods-ios-facebook-sharing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "ios-facebook-sharing/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "wilderpereira.ios-facebook-sharing";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = ios_facebook_sharing/Header.h;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Debug;
 		};
 		D8F157581D3DA48F00944872 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3933872EA8D2346CDE4E8888 /* Pods-ios-facebook-sharing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "ios-facebook-sharing/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "wilderpereira.ios-facebook-sharing";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = ios_facebook_sharing/Header.h;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};
@@ -298,6 +375,7 @@
 				D8F157581D3DA48F00944872 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
