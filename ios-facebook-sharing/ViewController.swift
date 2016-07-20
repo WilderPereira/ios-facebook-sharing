@@ -25,8 +25,10 @@ class ViewController: UIViewController {
         
         let button : FBSDKShareButton = FBSDKShareButton()
         button.shareContent = content
-        button.frame = CGRectMake((UIScreen.mainScreen().bounds.width - 100) * 0.5, 50, 100, 25)
+        button.frame = CGRectMake(240, (self.view.frame.size.height - 60), 200, 30)
+        
         self.view.addSubview(button)
+        
     }
 
     override func didReceiveMemoryWarning() {
